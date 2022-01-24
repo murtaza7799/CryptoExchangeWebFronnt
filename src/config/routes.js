@@ -38,15 +38,15 @@
 //import Bzb from '../pages/activity/Bzb'
 
 export default [
-    { path: '/', component: resolve=>(require(["../pages/index/index"],resolve)) },
-    { path: '/index', component: resolve=>(require(["../pages/index/index"],resolve)) },
-    { path: '/login', component: resolve=>(require(["../pages/uc/login"],resolve)) },
+    //{ path: '/', component: resolve=>(require(["../pages/index/index"],resolve)) },
+   // { path: '/index', component: resolve=>(require(["../pages/index/index"],resolve)) },
+   // { path: '/login', component: resolve=>(require(["../pages/uc/login"],resolve)) },
     { path: '/login/returnUrl/:returnUrl', component: resolve=>(require(["../pages/uc/login"],resolve)) },
-    { path: '/register', component: resolve=>(require(["../pages/uc/register"],resolve)) },
+    //{ path: '/register', component: resolve=>(require(["../pages/uc/register"],resolve)) },
     { path: '/reg', component: resolve=>(require(["../pages/uc/MobileRegister"],resolve)) },
     { path: '/app', component: resolve=>(require(["../pages/uc/AppDownload"],resolve)) },
    // { path: '/findPwd', component: resolve=>(require(["../pages/uc/findpwd"],resolve)) },
-    { path: '/exchange', component: resolve=>(require(["../pages/exchange/exchange"],resolve)) },
+   // { path: '/exchange', component: resolve=>(require(["../pages/exchange/exchange"],resolve)) },
     //{ path: '/exchange/:pair', component: resolve=>(require(["../pages/exchange/exchange"],resolve)), name: "ExchangePair"},
    // { path: '/help', component: resolve=>(require(["../pages/cms/help"],resolve)) },
     { path: '/helplist', component: resolve=>(require(["../pages/cms/HelpList"],resolve)) },
