@@ -41,7 +41,7 @@ export default [
     //{ path: '/', component: resolve=>(require(["../pages/index/index"],resolve)) },
    // { path: '/index', component: resolve=>(require(["../pages/index/index"],resolve)) },
    // { path: '/login', component: resolve=>(require(["../pages/uc/login"],resolve)) },
-    { path: '/login/returnUrl/:returnUrl', component: resolve=>(require(["../pages/uc/login"],resolve)) },
+    //{ path: '/login/returnUrl/:returnUrl', component: resolve=>(require(["../pages/uc/login"],resolve)) },
     //{ path: '/register', component: resolve=>(require(["../pages/uc/register"],resolve)) },
     { path: '/reg', component: resolve=>(require(["../pages/uc/MobileRegister"],resolve)) },
     { path: '/app', component: resolve=>(require(["../pages/uc/AppDownload"],resolve)) },
