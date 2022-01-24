@@ -45,10 +45,7 @@ iView.LoadingBar.config({
     height: 2
 });
 
-router.beforeEach((to, from, next) => {
-    iView.LoadingBar.start();
-    next();
-});
+
 
 router.afterEach((to,from,next) => {
     window.scrollTo(0,0);
